@@ -359,6 +359,7 @@ if(plot.arrows){
 
 
 # examples
+library(geomorph)
 data("plethodon")
 LM <- plethodon$land
 proc <- gpagen(LM)
